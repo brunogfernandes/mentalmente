@@ -1,0 +1,88 @@
+name: mentalmente
+description: App destinado ao público infantil, desenvolvido em parceria com graduandos do curso de Pedagogia da UNIFAE.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.4.0
+  another_flushbar: ^1.12.30
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/banheiro.jpeg
+    - images/bolinho.png
+    - images/controle-de-video-game.png
+    - images/escova-de-dente.png
+    - images/sabonete.png 
+    - images/sala-jogos.jpeg 
+    - images/sala.jpeg 
+    - images/ursinho-dente-sujo.png 
+    - images/ursinho-limpo.png 
+    - images/ursinho-sujo.png 
+    - images/urso-feliz.png
+    - images/urso-pensativo.png
+    - images/banana.png
+    - images/caixa.png 
+    - images/leao.png 
+    - images/maca.png
+    - images/balde-animal.png
+    - images/balde-fruta.png 
+    - images/cachorro.png 
+    - images/elefante.png 
+    - images/gato.png 
+    - images/laranja.png 
+    - images/melancia.png
+    - images/morango.png 
+    - images/pera.png 
+    - images/quadrado.png 
+    - images/tartaruga.png 
+    - images/titulo.png 
+    - images/tucano.png
+    - images/uvas.png
+    - images/Baleia.png
+    - images/Borboleta.png 
+    - images/Cachorro.png 
+    - images/Camelo.png 
+    - images/Cavalo.png 
+    - images/Coelho.png 
+    - images/Elefante.png 
+    - images/Formiga.png 
+    - images/Gato.png 
+    - images/Girafa.png 
+    - images/Leao.png 
+    - images/Passaro.png 
+    - images/Pato.png 
+    - images/Pinguin.png
+    - images/Polvo.png 
+    - images/Porco.png 
+    - images/Urso.png
+
+  fonts:
+  - family: Chewy
+    fonts:
+      - asset: fonts/Chewy-Regular.ttf
+
+  - family: Roboto
+    fonts:
+      - asset: fonts/Roboto-Regular.ttf
+
+  - family: Archivo Black
+    fonts:
+      - asset: fonts/ArchivoBlack-Regular.ttf
+
+  - family: Lilita One 
+    fonts: 
+      - asset: fonts/LilitaOne-Regular.ttf
